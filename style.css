@@ -17,9 +17,9 @@
     
     --white: #FFF;
     
-    -- very-dark-blue: #131518:
+    --very-dark-blue: #131518;
     
-    --black-gradient: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 108%);
+    --black-gradient: radial-gradient(98.96% 98.96% at 50% 0%, #232a34 0%, #121e27 108%);
 }
 body {
     background-color: var(--very-dark-blue);
@@ -80,25 +80,28 @@ body {
     border: none;
     color: var(--medium-grey);
    background-color: var(--dark-blue);
+   transition: all ease-in-out 0.3s;
    }
 
    .botoes button:hover {
+    color: var(--white);
+    background-color: var(--orange);
+    cursor: pointer;
 }
 .botoes button:focus {
     color: var(--white);
-    background-color: var(--Light-grey);
+    background-color: var(--light-grey);
     }
     .card > a {
-        display: block;
-    width: 108%;
+    display: block;
+    width: 100%;
     padding: 13px;
-    background-color:
-    var(--orange);
+    background-color: var(--orange);
     border: none;
     border-radius: 22px;
     font-size: 15px;
     font-weight: 780;
-    text-transform: ppercase;
+    text-transform: uppercase;
     letter-spacing: 2px;
     color: var(--white);
     text-align: center;
@@ -107,7 +110,7 @@ body {
     }
     
     .card > a:hover {
-    color: var(--orange)
+    color: var(--orange);
     background-color: var(--white);
     cursor: pointer;
     }

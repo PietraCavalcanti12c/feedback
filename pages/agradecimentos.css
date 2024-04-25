@@ -17,7 +17,7 @@
     
     --white: #FFF;
     
-    -- very-dark-blue: #131518:
+    --very-dark-blue: #131518;
     
     --black-gradient: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 108%);
 }
@@ -46,7 +46,7 @@ body {
         padding: 4px 18px;
         border-radius: 22px;
         font-size: 15px;
-        color: var(--orange)
+        color: var(--orange);
         margin-bottom: 32px;
         }
     
